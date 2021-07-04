@@ -580,7 +580,7 @@ static void update() {
     const bool control_states[NUM_CONTROLS] = {
         keyboard_char('a'),
         keyboard_char('d'),
-        keyboard_char('r'),
+        keyboard_key(KEY_UP),
         keyboard_key(KEY_LEFT),
         keyboard_key(KEY_RIGHT),
         keyboard_key(KEY_DOWN),
